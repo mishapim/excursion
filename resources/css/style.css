@@ -1,0 +1,10 @@
+/* This is the top header style */
+.top-header { 
+    background-color: #000;
+    color: white;
+    text-align: center;  
+    padding: 40px;
+    font-family: Verdana;
+    font-weight: normal;
+
+}
