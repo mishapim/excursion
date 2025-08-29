@@ -1,18 +1,99 @@
-/* This is the top header style */
-.top-header { 
+/* Page container full height */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header styling */
+  .top-header {
     background-color: #000;
     color: white;
-    text-align: center;  
-    padding: 40px;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Verdana;
+  }
+  .top-header h1 {
+    font-weight: normal;                /* make h1 less bold */ 
+  }
+  
+  /* Full-width black row behind button */
+  .link-row {
+    background-color: black;          /* full row background */
+    display: flex;
+    justify-content: center;          /* center button horizontally */
+    align-items: center;              /* vertical centering within row */
+    padding: 30px 0;                  /* vertical space above/below button */
+  }
+  
+  /* Button styling */
+  .temp-link {
+    background-color: black;     /* button color */
+    color: aquamarine;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+  
+  /* Video container */
+  .video-container {
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+  }
+  
+  /* Middle header below video */
+  .middle-header {
+    color: white;
+    margin-top: 20px;
     font-family: Verdana;
     font-weight: normal;
+  }
 
-}
+  .video-container h3 {
+    color: grey;
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+    font-family: Verdana;
+    
+  }
 
-.temp-link {
+  .video-image {
+   
     background-color: black;
-    color: aquamarine;
-    font-size: 16px;
+    padding: 20px 0;
+    display: block;          /* ensures it behaves like a block element */
+    margin: 20px auto 0;     /* centers horizontally and adds top margin */
+    max-width: 90%;          /* responsive width */
+    height: auto;            /* maintain aspect ratio */
+    border-radius: 50px; 
+  }
 
+  .video-image-phone {
+    background-color: black;
+    padding: 20px 0;
+    display: block;          /* ensures it behaves like a block element */
+    margin: 20px auto 0;     /* centers horizontally and adds top margin */
+    max-width: 90%;          /* responsive width */
+    height: auto;            /* maintain aspect ratio */
+    border-radius: 50px;
+  }
 
-}
+  .bottom-header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Verdana;
+
+  }
+
+  .footer {
+    background-color: #000;
+    color: grey;
+    text-align: right;
+    padding: 10px 10px;
+    font-family: Verdana;
+  }
